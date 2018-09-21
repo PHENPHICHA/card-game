@@ -14,8 +14,8 @@ export default class CharacterCard extends Component {
         }
     } 
     componentDidUpdate(prevProps){
-        if(prevProps.attemt !== this.props.attempt){
-          this.setState({active:false})
+        if(prevProps.attempt != this.props.attempt){
+          this.setState({active: false})
         }
       }
    
@@ -25,7 +25,7 @@ export default class CharacterCard extends Component {
     return (
         <div className={className} onClick={this.activate}>
         {this.props.value}
- </div>
+        </div>
     
     )
     }
