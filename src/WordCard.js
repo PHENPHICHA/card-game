@@ -41,7 +41,7 @@ export default class WordCard extends Component {
                 )
                 }
                <p>Round : {this.state.attempt}</p>
-                <p>{this.state.completed? "you win !!" : ""}</p>
+                <p>{this.state.completed? "You Win !!" : ""}</p>
                 </div>	           
             );	       
 

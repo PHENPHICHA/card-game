@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import WordCard from './WordCard';
-const word = "Hello";
+const word = "WELCOME";
 
 
 class App extends Component {
