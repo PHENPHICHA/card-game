@@ -7,9 +7,8 @@ render() {
 return (
     <div>
         {Array.from(this.props.value).map((c, i) => <CharacterCard value={c} key={i}/>)}
-        {
-        Array.from(this.props.value).map((c, i) => <CharacterCard value={c} key={i} activationHandler={this.activationHandler} />)
-        }
+    
+        
     </div>
     );
  }
