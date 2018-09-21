@@ -3,7 +3,7 @@ export default class CharacterCard extends Component {
     constructor(props){
         super(props)
         this.state = {
-            active: true,
+            active: false,
         }
         }
     
@@ -14,7 +14,7 @@ export default class CharacterCard extends Component {
         }
     } 
     componentDidUpdate(prevProps){
-        if(prevProps.attemt !== this.props.attemt){
+        if(prevProps.attemt !== this.props.attempt){
           this.setState({active:false})
         }
       }
