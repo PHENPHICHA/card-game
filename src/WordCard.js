@@ -33,9 +33,10 @@ export default class WordCard extends Component {
     }
     render(){	    
         return(	       
+            
             <div className="App">	
-                <p>Hint : The first program in C </p>
-                {
+            <h3>จงเรียงประโยคต่อไปนี้ให้ถูกต้อง</h3>
+                {  
                 Array.from(this.state.chars).map((c, i) => <CharacterCard value = {c} key = {i} 
                 attempt={this.state.attempt}
                 activationHandler = {this.activationHandler} />
